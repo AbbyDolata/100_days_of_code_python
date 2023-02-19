@@ -4,12 +4,14 @@ two_digit_number = input("Type a two digit number: ")
 a=int(two_digit_number[0])
 b=int(two_digit_number[1])
 print(a+b)
+
 #BMI Calculator
 height = input("enter your height in m: ")
 weight = input("enter your weight in kg: ")
 bmi=(int(weight)/float(height)**2)
 bmi_as_int=int(bmi)
 print(bmi_as_int)
+
 #made a calculation to see how many days, weeks, and months left until one hits 90
 age = input("What is your current age? ")
 years=(90-int(age))
@@ -17,6 +19,7 @@ months=(years*12)
 weeks=(years*52)
 days=(years*365)
 print(f"you have {days} days, {weeks} weeks, and {months} months left.")
+
 #tip calculator 
 bill=input("Hello, this is a tip calculator, how much was your bill?\n")
 split=input("How many ways was the bill split?\n")
