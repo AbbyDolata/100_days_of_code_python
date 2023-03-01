@@ -90,5 +90,6 @@ shuffpass=""
 for char in epassword:
   shuffpass+=char
 print(shuffpass)
+
 #use for loop to move items from a list into a string
   
